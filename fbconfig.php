@@ -14,7 +14,7 @@ use Facebook\Entities\AccessToken;
 use Facebook\HttpClients\FacebookCurlHttpClient;
 use Facebook\HttpClients\FacebookHttpable;
 // init app with app id and secret
-FacebookSession::setDefaultApplication( '290972841072928','485ee4f418cdad7ad69aa1c6eef8c2bf' );
+FacebookSession::setDefaultApplication( 'API-Key-insert','API-SECRET-KEY' );
 // login helper with redirect_uri
     $helper = new FacebookRedirectLoginHelper('http://localhost/facebook/fbconfig.php' );
 try {
